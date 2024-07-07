@@ -45,7 +45,7 @@ for index, row in unknown_update.iterrows():
     summary_content += "\n"
 
 # 将汇总内容写入文档
-with open('镜像版本更新情况汇总.md', 'w', encoding='utf-8') as file:
+with open('issues_report.md', 'w', encoding='utf-8') as file:
     file.write(summary_content)
 
 print("汇总文档已成功创建。")
